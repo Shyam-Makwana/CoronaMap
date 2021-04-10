@@ -1,5 +1,5 @@
 const updateMap = () => {
-    fetch("/coronacases.json")
+    fetch("https://shyam-makwana.github.io/coronacases.json")
         .then(response => response.json())
         .then(rsp => {
             rsp.data.forEach(element => {
