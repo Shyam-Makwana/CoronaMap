@@ -26,7 +26,7 @@ const updateMap = () => {
         let latitude = element.latitude;
         let longitude = element.longitude;
         let information = `<h3>${state_name}</h3><p>Population = ${population}</p><p>Recovered = ${recovered}</p>
-        <p>Cases = ${cases}</p><p>Sick = ${sick}</p><p>Death = ${death}</p>`;
+        <p>Cases = ${cases}</p><p>Sick = ${sick}</p><p>Deaths = ${death}</p>`;
         new mapboxgl.Marker({
             draggable: false,
             color: 'rgb(255,0,0)'
